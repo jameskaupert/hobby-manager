@@ -1,0 +1,9 @@
+{
+  "name": "Hobby Manager Python Dev",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "features": {},
+  "forwardPorts": [8000],
+  "postCreateCommand": "scripts/setup",
+  "remoteUser": "developer"
+}

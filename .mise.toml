@@ -1,0 +1,9 @@
+[tools]
+python = "3.13.5"
+neovim = "0.11.3"
+chezmoi = "2.63.1"
+node = "24.4.1"
+fzf = "0.57.0"
+
+[env]
+_.python.venv = { path = ".venv", create = true }
